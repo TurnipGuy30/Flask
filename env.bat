@@ -1,1 +1,2 @@
-app/env/Scripts/activate.bat
+cd app
+env/Scripts/activate.bat
