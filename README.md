@@ -4,7 +4,8 @@
 
 Run:
 
-```sh
+```console
+$ setup
 $ venv
 (.venv) $ app
 ```
