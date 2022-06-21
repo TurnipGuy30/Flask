@@ -1,0 +1,22 @@
+name: Main
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main", "master"]
+  schedule:
+  - cron: '* * * * *'
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - run: |
+          python -m pip install -r requirements.txt
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.TOKEN }}
+          user: TurnipGuy30
+          repo: Flask
+          template: repository
