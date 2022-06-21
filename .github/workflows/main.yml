@@ -2,7 +2,7 @@ name: Main Workflow
 on:
   workflow_dispatch:
   push:
-    branches: ["main", "master"]
+    branches: main
   schedule:
   - cron: '* * * * *'
 jobs:
@@ -15,3 +15,4 @@ jobs:
           user: TurnipGuy30
           repo: Flask
           template: repository
+          plugin_lines: yes
