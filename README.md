@@ -8,11 +8,3 @@
 	</p>
 </div>
 <hr>
-
-Run:
-
-```cmd
-$ setup
-$ venv
-(.venv) $ app
-```
