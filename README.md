@@ -8,3 +8,11 @@
 	</p>
 </div>
 <hr>
+
+Runs on Windows 10
+
+```shell
+$ venv
+(.venv) $ setup
+(.venv) $ app
+```
