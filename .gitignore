@@ -130,3 +130,6 @@ dmypy.json
 
 # VSCode settings
 .vscode/settings.json
+
+# Word documents
+*.docx
